@@ -3,7 +3,7 @@
 #Made by: SvenAzari
 #https://github.com/svenazari
 
-cur = float(input("IZNOS = ")) #iznos za konverziju
+cur = float(input("IZNOS = ").replace(',','.')) #iznos za konverziju
 
 rate = 7.53450 #fiksni tečaj za konverziju
 
